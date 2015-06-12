@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+When you init a repository, it tells git to keep track of all the files in that directory from that point on.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+It helps to keep track of uncommitted changes ?
+it gives you a chance to undo something before you commit
+it saves you the trouble of having to create a new commit when you have some files ready but not all
+maybe you want to work on only a few files at a time, then pool them together for a big commit
