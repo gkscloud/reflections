@@ -1,0 +1,31 @@
+git add
+git clone
+git commit
+git status 
+git log
+git checkout
+
+git diff (for comparing working directory to staging area)
+git diff <oldcommit1> <newcommit>
+git diff --staged (for comparing staging area to repository)
+
+git reset --hard (Careful!)
+
+git checkout master (get the most current HEAD)
+
+git branch
+shows the current branch
+
+git branch <branchnametocreate>
+(does not set it to the active branch) use git checkout for that
+
+git checkout -b <new branchname>
+this is the equivalent of 2 commands:
+git branch <newbranchname>
+
+git show <commitid>
+you have to use this when you don't know the parent of a commit when doing a diff
+this is needed whenever branches are merged. Because the new commits from another branch overlap with the parent commits of the master branch.
+
+git branch -d <branchname>
+deletes the LABEL of a particular branch. you don't need the LABEL of an older branch after it has been merged to the master. All the commits of that branch are preserved and reachable through the master
