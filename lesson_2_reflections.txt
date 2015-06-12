@@ -10,3 +10,12 @@ maybe you want to work on only a few files at a time, then pool them together fo
 How can you use the staging area to make sure you have one commit per logical change?
 you can add files that have changed as part of the logical change to the staging area. Then commit all of them together as part of the logical change. 
 multiple files may have been modified. But only one commit is registered against that particular change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+when you need to fork the project and create something based on an existing project. a branch would help keep all the current code, and manage it separately
+also good for experimenting
+very good for isolating new feature development
+helps keep it independent of the master to some extent
+manage the development and deployment of fixes much better
+
+How do the diagrams help you visualize the branch structure?
