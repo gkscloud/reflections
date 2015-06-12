@@ -19,3 +19,7 @@ helps keep it independent of the master to some extent
 manage the development and deployment of fixes much better
 
 How do the diagrams help you visualize the branch structure?
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+merge two branches combined all the changes to code from both branches to a single branch - master. 
