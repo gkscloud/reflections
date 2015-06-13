@@ -29,3 +29,16 @@ this is needed whenever branches are merged. Because the new commits from anothe
 
 git branch -d <branchname>
 deletes the LABEL of a particular branch. you don't need the LABEL of an older branch after it has been merged to the master. All the commits of that branch are preserved and reachable through the master
+
+git remote
+checks if there are any remotes setup
+
+git remote add <remotename> <remotelink>
+sets up a remote repo called <remotename> which is stored at the <remotelink>
+
+git remote -v
+
+git push <remotetosendto> <nameoflocalbranchtopush>
+git push origin master
+
+
