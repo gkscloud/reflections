@@ -1,0 +1,19 @@
+Using diff to identify the bugs in a file
+This worked because when there was a typo in the new file
+it showed up as being different from the original 
+this made it appear as a new line in the new file and hence
+it was easy to point out!
+
+Having access to the entire history of a file can easily help track
+the changes that have been made to the file. In case someone wants to revert
+back to specific point in time to work with that version it becomes very 
+easy to do so.
+
+manually choosing when to commit
+pros: flexibility, readability of commit log
+smaller number of commits
+cons: not enough commits, lose out on data that would have otherwise been available
+if the commits were done automatically
+
+How might using version control make you more confident to make changes that could break something?
+it makes me more confident that I can easily revert my code back to the last stable version
