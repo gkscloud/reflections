@@ -2,3 +2,7 @@ When would you want to use a remote repository rather than keeping all your work
 when you collaborate with many people on the same project
 storing in a central location is always preferred when working in an organization
 when working on your own. you can use local storage
+
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+when you collaborate with others it is always important to pull changes manually so that you can identify conflicts if any merges are needed
