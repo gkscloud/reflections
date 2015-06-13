@@ -40,5 +40,5 @@ git remote -v
 
 git push <remotetosendto> <nameoflocalbranchtopush>
 git push origin master
-
+git pull <remotetopullfrom> <branchtopullto>
 
