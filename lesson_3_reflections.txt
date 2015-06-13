@@ -6,3 +6,10 @@ when working on your own. you can use local storage
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 when you collaborate with others it is always important to pull changes manually so that you can identify conflicts if any merges are needed
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+forking is a concept tied down to github. It is type of clone that maintains its link to the original repository (which could have been created by a different user). it allows everyone to trace back a repository to its original creator
+
+a clone is a direct copy of a repo. It is good to use clones on your own projects. or when collaboration is tied down to one central storage location only (for example a shared folder local to a development group). When working on git hub, if you want to use someoneelse's repo, always "fork" first to your account. Then clone your account locally. All changes will be committed to the forked clone. but these changes can also be suggested back to the original creator via github.
+
+branches should be created to organize changes a bit better . In the context of githhub it is still advisable to create branches on the forked clone first and then suggest them back to the original creator. this allows you to work independently and validate all your work before committing to the original creator / maintainer's repository
