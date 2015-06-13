@@ -42,3 +42,12 @@ git push <remotetosendto> <nameoflocalbranchtopush>
 git push origin master
 git pull <remotetopullfrom> <branchtopullto>
 
+
+git pull <origin> <branch> 
+is the same as 
+1. git fetch <origin>
+2. git merge master origin/master
+
+git fetch <origin>
+will get the latest commits from the remote and create a separate commit in your local repo based on your local origin/master
+you will have to merge that manually into your master
