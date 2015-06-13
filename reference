@@ -51,3 +51,16 @@ is the same as
 git fetch <origin>
 will get the latest commits from the remote and create a separate commit in your local repo based on your local origin/master
 you will have to merge that manually into your master
+
+
+git status compares your master to local copy of origin/master
+it does not compare with GitHub's master
+
+ Remember, though, origin/master won't show commits that are present on your local master but not GitHub.
+
+ git pull origin master affects the local master branch. But if local master branch is checked out, it will also affect working directory and staging area
+ Your answer for git pull is close, but there's a subtle mistake. 
+ Since you have the master branch checked out, updating that will also update your working directory and staging area.
+ 
+ 
+ 
